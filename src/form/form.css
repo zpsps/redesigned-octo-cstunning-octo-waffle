@@ -1,0 +1,57 @@
+
+.cntr{
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+}
+
+.modal_box{
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 1px;
+    background-color: rgb(32,107,68);
+    width: 440px;
+    height: 300px;
+    position: relative;
+    top: 6.5cm;
+}
+
+.signals{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email, .pswd{
+    color:rgb(32,107,68);width:250px;height:30px;padding-left:10px;border:solid 1px black;
+    /* outline: 0; */
+}
+
+.btn{
+    border:none;background-color:white;width:100px;height:30px;color:rgb(32,107,68);font-weight:bold;cursor:pointer;
+}
+
+.inp_wrapper_{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eml_engulf,
+.paswd_engulf,
+.submit_engulf{
+    margin-top: 16px;
+}
+
+.wrp{
+    position: relative;top: 355px;padding-top: 8px;padding-bottom: 8px;padding-right: 20px;padding-left: 20px;box-shadow: 1px 1px 10px grey;
+    border-radius:1px;background-color:white;cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 440px;
+}
